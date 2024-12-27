@@ -1,0 +1,1096 @@
+
+.mobile-isti{
+    display: none !important;
+}
+.desktop-isti{
+    display: block !important;
+}
+@media(min-width:576px) {
+    .container {
+        max-width: 576px
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 768px
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 992px
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1200px
+    }
+}
+
+@media(min-width:576px) {
+
+    .container,
+    .container-sm {
+        max-width: 576px
+    }
+}
+
+@media(min-width:768px) {
+
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 768px
+    }
+}
+
+@media(min-width:992px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 992px
+    }
+}
+
+@media(min-width:1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1200px
+    }
+}
+
+
+
+/* ------------------------home page responsive css ------------------- */
+
+@media (max-width:1199px) {
+    .tog-label {
+        margin-bottom: 0rem !important;
+        margin-left: 0.3rem !important;
+        margin-right: 0.3rem;
+    }
+    .header-customize {
+        display: flex !important;
+        margin-left: 0rem !important;
+    }
+    .institute-top .topbar-item {
+        margin-left: 0% !important;
+        gap: 10px;
+    }
+    .institute-top{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:991px) {
+    .home-main-intro .list-inline {
+        margin-top: 1rem;
+    }
+    .header-customize {
+        display: flex !important;
+        gap:5px;
+        margin-left: 0rem !important;
+    }
+    .desktop-isti{
+        display: none !important;
+    }
+    .mobile-isti{
+        display: block !important;
+    }
+    .progress__bar__container ul{
+        display: none !important;
+    }
+    .institute-top .topbar-item {
+        margin-left: 0% !important;
+        gap: 10px;
+    }
+    .institute-top{
+        justify-content: space-between;
+    }
+    .advance-serach .right__container {
+        display: block;
+        width: 100%;
+        padding: 0rem 0.5rem 1rem 0.5rem;
+    }
+    .option-flex .custom-radio {
+        margin-top: 1rem;}
+        .advance-serach .sub__title__container h2{
+            font-size: 23px;
+        }
+        .advance-serach .sub__title__container p {
+            font-size: 14px;}
+            .advance-serach .emoji {
+                margin-top: 0rem;
+            }
+            .advance-serach  .mc-field-group .label-icon {
+                width: 100px;
+                padding: 8px 0px 0px 0px;
+                height: 100%;
+            }
+            .advance-serach .nxt__btn {
+               
+               bottom: 2%;}
+               .advance-serach .prev__btn {
+                 bottom: 2%;
+                right: 14%;}
+                .advance-serach   .app {
+                    display: flex;
+                    flex-flow: row wrap;
+                    margin-top: 1.5rem;
+                    gap: 6px;
+                    justify-content: center;
+                   
+                }
+                #form3 .app{
+                    justify-content: center;
+                    margin-bottom: 4rem;
+                }
+                #form3 .button label {
+
+    width: 125px;
+}
+      .blog-inner h3 {
+   
+    font-size: 20px;
+} 
+.blog-single-hero h3 {
+    font-size: 21px;}
+    
+    #forget_password, #forget_password-1 {
+    
+    padding: 2rem 1rem;
+}
+.my-acc-home h3 {
+   
+    font-size: 24px;
+    margin-top: 2rem;
+}
+.contact-us-sec-1 {
+   
+    justify-content: center;
+  
+}
+.btn-save-sec-1 {
+   
+    margin-right: auto !important;
+}
+.ref-bottom ul li, .ref-bottom p {
+
+    text-align: justify !important;
+}
+    #form6 p {
+                    padding: 0rem 0rem;
+                }
+                .btn-sub-ad .btn {
+                    margin-top: 2rem;
+                    margin-bottom: 3rem;
+                    padding: 0.2rem 3rem;
+                }
+                .advance-serach .sub__title__container p {
+                    margin-top: 2rem !important;
+                }
+                .advance-serach .app:nth-child(2) {
+                    display: flex;
+                    flex-flow: row wrap;
+                    margin-top: 1.5rem;
+                    /* justify-content: center; */
+                    gap: 10px;
+                }
+            .advance-serach   .mc-field-group .icon {
+                width: 50px;
+                height: 50px;
+            }
+            .advance-serach  .mc-field-group .radio-item span {
+              
+                font-size: 13px;
+                padding: 2px;
+             
+                height: 50px;
+            }
+            .advance-serach  .option-flex .custom-radio {
+                margin-top: 1rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 20px;
+                flex-flow: row wrap;
+                justify-content: center;
+            }
+            #myModal-log-inst .right-side-log,  #myModal-reg-inst .right-side-log  {
+                padding: 1rem;
+                background: #fff;
+            }
+            #myModal-log-inst .left-side-log,    #myModal-reg-inst .left-side-log {
+                padding: 2rem;
+            }
+            #myModal-log-inst #regForm i   {
+               
+                bottom: 20.5%;}
+                #myModal-reg-inst #regForm-1 i {
+                    bottom: 40% !important;
+                }
+                #myModal-log-inst .row,  #myModal-reg-inst .row{
+                    margin: 0% !important;
+                }
+                #myModal-log-inst   #forget_password, #myModal-reg-inst   #forget_password-1 {
+                    text-align: left;
+                    padding: 2rem 1rem;
+                }
+                #myModal-log-inst #regForm input,  #myModal-reg-inst #regForm-1 input {
+                    margin-top: 0%;
+                    margin-bottom: 1rem;
+                }
+}
+
+@media (max-width:767px) {
+    .school-edit-form .left-sec{
+        padding-right: 0rem;
+    }
+    .school-edit-form .right-sec{
+        padding-left: 0rem;
+    }
+    .home-main-intro .list-inline {
+        margin-top: 1rem;
+    }
+.institute-top{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.institute-top .header-customize-item .btn {
+    padding-left: 4px;
+    padding-right: 5px;
+    font-size: 13px;
+}
+.institute-top .topbar-item{
+    margin-left: 0% !important;
+    gap: 10px ;
+}
+.institute-bg{
+    height: 100% !important;
+}
+ .home-main-intro.home-sec{
+     height:500px !important;
+ }
+    .home-main-intro.institute-bg {
+
+       height: 205px !important;
+       position: relative;
+    z-index: 0;
+    }
+    #profile .for-sec {
+       
+        flex-direction: column;
+    }
+    .left-reg-sec img {
+        margin-top: 0rem;}
+        .left-reg-sec h3 {
+            font-size: 20px;
+            margin-top: 1rem;
+        }
+        .left-reg-sec {
+         
+            padding-left: 7rem;
+        }
+    .form-home {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .home-main-how-it-work.pt-6 {
+        padding-top: 6rem !important;
+    }
+
+    .sticky .btn-sb {
+        display: none;
+    }
+
+    .topbar-inscroll .form-home {
+
+        margin-left: 0rem;
+    }
+
+    .topbar-inscroll {
+        padding: 1rem 1rem;
+    }
+
+    .topbar-inscroll .topbar-item {
+        display: none !important;
+    }
+
+    .topbar-inscroll .form-search.form-search-style-02 .btn {
+        margin-bottom: 1rem;
+    }
+
+    .topbar-inscroll .form-search.form-search-style-02 .form-search-item.mb-4 {
+        margin-bottom: 0.7rem !important;
+    }
+
+    .form-home .col-xl-4 .input-group {
+        border-radius: 10px;
+    }
+
+    .form-search .input-group {
+        padding: 5px 20px !important;
+    }
+
+    .form-search.form-search-style-02 .btn {
+
+        padding: 0.2rem 0%;
+    }
+
+    .pt-12,
+    .py-12 {
+        padding-top: 3.25rem !important;
+    }
+
+    .slick-dots {
+        display: none !important;
+    }
+
+    .pt-85 {
+        padding-top: 0px !important;
+    }
+
+    .see-text,
+    .how-it-text {
+
+        font-size: 1.5rem;
+    }
+
+    .col-md-5.centered {
+        padding: 0rem 3rem;
+    }
+
+    .footer .mb-6 {
+        margin-bottom: 0rem !important;
+    }
+
+    .footer-last.mt-8 {
+        margin-top: 0rem !important;
+    }
+
+    .footer-last-container .row .mb-3 {
+        margin-bottom: 0.4rem !important;
+    }
+
+    .main-footer-style-01 .back-top {
+        left: auto;
+        right: 0;
+        bottom: -30px;
+        top: auto;
+    }
+
+    .header-customize {
+        display: flex !important;
+        gap:5px;
+        margin-left: 0rem !important;
+    }
+
+    .main-header .navbar-collapse {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .header-style-04 .navbar-toggler:hover {
+        color: #fff;
+    }
+
+    .icon-box-style-01 .icon {
+        width: 65px;
+    }
+
+    .left-side-log {
+        display: none;
+    }
+
+    .right-side-log {
+        background: #FFE1D4;
+
+    }
+
+    .google {
+
+        padding: 0.8rem 3rem;
+    }
+
+    .about-home {
+        height: 182px !important;
+    }
+
+    .about-home .heading p {
+        margin-top: 2rem;
+        font-size: 13px;
+    }
+
+    .about-home .heading h5 {
+        font-size: 10px;
+    }
+
+    .left-img-abt {
+        display: none;
+    }
+
+    .col-md-7.left-abt-text {
+        background-image:none;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-left: 1rem;
+    }
+
+    .left-abt-text p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .left-text-we {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .about-home-inner .col-md-7 {
+        padding: 0rem 1.5rem 2rem 
+    }
+    .about-home-inner {
+        padding: 0rem 0rem 1rem;
+    }
+    .myaccordion .card-body {
+    padding: 0rem 0rem;
+}
+    .abt-inner-cont .myaccordion{
+    margin-bottom: 1rem;
+    }
+    .footer-last .align-items-center {
+      
+        gap: 10px;
+    }
+    .home-main-testimonial {
+padding-bottom: 4rem !important;
+    }
+    .heade-about {
+        font-size: 25px;
+    }
+
+    .abt-inner-cont img {
+        position: relative;
+        width: 120px;
+        height: 100%;
+        z-index: 9999;
+    }
+
+    .myaccordion h3 {
+        font-size: 20px;
+    }
+
+    .myaccordion .card-header {
+
+        padding: 0.5rem 0rem;
+    }
+
+    .button-sec-btn {
+
+        width: 100px;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .abt-inner-cont button span {
+        font-size: 15px;
+        margin-left: 0.3rem;
+    }
+
+    .abt-inner-cont button img {
+        width: 20px;
+    }
+
+    .button-sec button {
+        padding: 0.5rem 0rem;
+    }
+
+    .button-sec-btn:nth-child(1) {
+        left: 3%;
+        top: -8px;
+    }
+
+    .button-sec-btn:nth-child(2) {
+        left: 63%;
+        top: 59px;
+    }
+
+    .button-sec-btn:nth-child(3) {
+        left: 63%;
+        top: 194px;
+
+    }
+
+    .pt-85.abt-inner-content {
+        padding-top: 4rem !important;
+    }
+
+    .abt-inner-content .col-md-3 {
+        padding: 1rem;
+    }
+
+    .abt-inner-content img {
+        width: 125px;
+    }
+
+    .abt-inner-content .col-md-3 {
+        padding: 2rem 0rem 0rem;
+    }
+
+    .abt-inner-content .col-md-3 {
+        width: 50%;
+    }
+    #forget_password form p, #forget_password-1 form p {
+       
+        margin-left: 0rem;
+    }
+    
+    .career-page h2.heade-about {
+        font-size: 26px;
+        margin-top: 0rem;
+
+    }
+
+    .career-page h3,
+    .career-page h2.heade-about {
+        text-align: center !important;
+    }
+
+    .career-page .btn-sb {
+        float: none;
+        margin-top: 1rem;
+    }
+
+    .career-page .btn-sb {
+
+        font-size: 17px;
+    }
+
+    .carrer-form input {
+
+        padding: 0rem 3rem;
+    }
+
+    .bottom-form-ca {
+        gap: 0px;
+    }
+
+    .boxes-bottom {
+        margin-top: 0rem;
+    }
+
+    .leaf img {
+        width: 35px !important;
+    }
+
+    .blog-hero .container {
+        padding-top: 1px;
+    }
+
+    .blog-hero img {
+
+        height: 230px;
+    }
+
+    .blog-hero {
+        height: 250px;
+    }
+
+    .para-blog {
+        text-align: justify;
+        padding: 0rem 1rem;
+    }
+
+    .bolg-boxes .grid {
+        display: block;
+    }
+
+    .bolg-boxes .wrapper .grid:nth-child(1) img {
+        height: 100% !important;
+    }
+.bolg-boxes .wrapper .grid img {
+    height:100% !important;
+}
+    .box.git .card-body {
+
+        padding: 1.25rem 0rem;
+    }
+
+    .blog-single-hero {
+        height: 100% !important;
+    }
+
+    .blog-single-hero h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .text-section .sub-para {
+        justify-content: center;
+    }
+
+    .contact-page {
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .contact-page .home-main-intro-container .row {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .contact-right-img img {
+        width: 45%;
+        display:none;
+    }
+
+    .contact-page .col-md-6 p {
+        text-align: center !important;
+    }
+
+    .contact-form-below input, .contact-form-below select, .contact-form-below textarea {
+
+        width: 100%;
+    }
+    .contact-label{
+        margin-top:5rem !important;
+    }
+
+    .contact-form-below label {
+        margin-top: 1.5rem;
+
+    }
+
+    .contact-form-below .row {
+        margin-top: 1rem;
+    }
+
+    .contact-bottom-inner {
+        flex-direction: column;
+    }
+
+    .contact-bottom h5 {
+        margin-top: 1rem;
+    }
+
+    .contact-bottom {
+
+        padding-bottom: 0rem;
+    }
+
+    .refferal-right-img img {
+        width: 50%;
+display: none;
+    }
+
+    .reffer h2 {
+        font-size: 25px !important;
+        margin-top: 1rem !important;
+    }
+
+    .reffer h3 {
+        font-size: 25px !important;
+    }
+
+    .reffer .btn {
+
+        padding: 0.3rem 1rem;
+    }
+
+    .ref-box {
+
+        padding: 20px 16px;
+    }
+
+    .ref-box label {
+
+        margin-top: 1rem;
+    }
+
+    .ref-box .belw {
+        margin-top: 0rem;
+    }
+
+    .ref-box .btn {
+        margin-top: 2rem;
+    }
+
+    .ref-bottom {
+        padding: 30px 0px;
+    }
+
+   .ref-bottom .inner_content p {
+    font-size: 17px;
+text-align:justify !important;
+    color: #000000;
+    font-weight: 500;
+}
+.ref-policy ul li, .ref-policy p {
+   
+    text-align: justify !important;
+        font-size: 16px;
+    font-weight: 500;
+    margin-left: 0%;
+}
+.blog-inner pre, .blog-inner pre span {
+    text-align: justify;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+    .label-ref {
+        margin-top: 2rem;
+    }
+
+    #forget_password h4,  #forget_password-1 h4  {
+        font-size: 18px;
+    }
+
+    .primary {
+        min-height: auto;
+    }
+
+    .school-form-box {
+        padding: 2rem 1rem;
+    }
+
+    .school-form-box .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my-acc-home {
+        padding: 0rem 2rem 2rem 2rem;
+    }
+
+    .school-form-box label {
+
+        margin-top: 1rem;
+    }
+
+    .school-form-box .form-check-label {
+        margin-top: 0%;
+    }
+
+    .btn-save-sec {
+        flex-direction: column;
+        gap: 30px !important
+    }
+
+    .payment-status {
+
+        gap: 30px;
+
+        flex-direction: column;
+    }
+
+    .payment {
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .sub-box {
+
+        margin: 0rem 0rem 2rem 0rem;
+    }
+
+    .stu-mid iframe {
+        width: 100%;
+    }
+
+    .icones-carousel .slick-arrow.slick-next,
+    .icones-carousel-2 .slick-arrow.slick-next {
+        right: 8px;
+    }
+
+    .icones-carousel .slick-arrow.slick-prev,
+    .icones-carousel-2 .slick-arrow.slick-prev {
+        left: 9px;
+    }
+
+    .achv-se .tabs li:first-child {
+
+        margin-bottom: 1rem;
+    }
+
+    .achv-se .tabs li {
+
+        padding: 2px 11px;
+        font-size: 13px;
+    }
+
+    .achv-se .tabs {
+        display: flex;
+    }
+
+    .head-text-sch {
+        font-size: 20px;
+    }
+
+    .top-bar-school {
+        flex-direction: column;
+    }
+
+    .top-bar-school .topbar-item {
+        justify-content: center;
+    }
+
+    .top-bar-school .topbar-item.ml-auto {
+
+        margin: auto !important;
+        margin-top: 2rem !important;
+        margin-left: 31% !important;
+
+    }
+
+    .careers-modal .modal-content {
+
+        padding: 0.5rem 0rem;
+    }
+
+    .careers-modal .modal-content h4 {
+        font-size: 20px;
+    }
+    .stu-mid {
+   margin-left: 0rem;
+    gap: 20px;
+justify-content: flex-start;}
+.location-school {
+ 
+    margin-top: 1rem;
+}
+.store-name-2 {
+    display: block !important;
+}
+.store-name-2 div{
+    margin-top: 1rem;
+}
+.institute-bg h3 {
+        font-size: 20px;
+    color: #180a0a;
+    text-align: center;
+    margin-top: 215px;
+    font-weight: 600;
+}
+.inst-h-tx{
+    margin-top:9rem;
+}
+.institute-top .insti-btn-rgt{
+    margin-left:auto !important;
+    margin-right:0%;
+}
+.feature-destination .slick-arrows {
+    display: flex;
+}
+.institute-top .inst-logo img{
+    width:185px;
+}
+.institute-bg p {
+ 
+    font-size: 16px;
+
+}
+.institute-bg .register-btn {
+    font-size: 14px;
+        margin-bottom: 2rem;
+
+}
+    .institute-bg .home-main-intro-container{
+        text-align: center;
+    }
+    .testimonials-slider .box {
+        padding: 1rem;
+    }
+  .istitute-sec-3{
+margin-top: 2rem;
+  }
+  .reg-sec-institute {
+    margin-top: 0px;
+}
+.payment-sec .store.job-store .w-content {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.payment-sec .box-my-acc .media-body h6 {
+
+    font-size: 18px;}
+    .payment-sec .box-my-acc .stu-st:nth-child(3) {
+    width: 100%; display: block;
+    }
+
+    .main-footer {
+        
+        position: relative;
+        z-index: -0;
+    }
+    .career-page{
+        margin-bottom: 2rem;
+    }
+    .top-bar-school{
+        flex-direction: column !important;
+    }
+    .breadcrumb.breadcrumb-style-02 .breadcrumb-item {
+        font-size: 13px;
+    }
+    .head-student {
+        font-size: 24px;}
+
+        .class-div{
+            display: flex;
+        }
+        
+        .institute-selec .card.p-10{
+            padding: 3rem 0rem 0rem !important;
+        }
+}
+@media (max-width:479px) {
+    .home-main-intro .list-inline {
+        margin-top: 0rem;
+    }
+
+    .form-home {
+
+        bottom: 2rem;
+    }
+
+    .icon-box-style-01 {
+        height: 100%;
+        padding: 9px 0px 0px 0px;
+    }
+
+    .google {
+
+        padding: 0.8rem 2.6rem;
+    }
+    .btn-school-sec {
+        
+        flex-direction: column;}
+        .media-body .media-bd-in{
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+        }
+        .add-class{
+            display: flex
+        }
+        .box-sch-inner {
+            text-align: center;}
+            .box-sch-inner .location-school a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box-sch-inner  .logo-partner{
+                float: none;
+            }
+            .box-sch-inner .h5 span {
+               margin-top: 1rem;
+                font-size: 27px;
+            }
+            #wrapper-content {
+                padding-top: 30px;
+            }
+            .store.job-store{
+                display: block;
+            }
+            .store.job-store .w-content{
+                width: 100%;
+            }
+            .store.job-store .favourite {
+                display: block;
+            }
+         .stu-st img{
+            display: none;
+
+            }
+            .form-blog label {
+             
+                margin-top: 2rem;
+            }
+}
+
+@media (max-width:320px) {
+    .home-main-intro .list-inline {
+        margin-top: 0rem;
+    }
+
+    .form-home {
+
+        bottom: 3rem;
+    }
+
+    .google {
+
+        padding: 0.8rem 1.6rem;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1030px) {
+ .int-labl {
+    margin-left: 3.7rem !important;
+}   
+}
+
+@media (max-width:767px) {
+.header-customize-item+.header-customize-item {
+     margin-left:0px;
+     margin-top:10px;
+}
+.topbar-inscroll  .top-logo-sec-1, .top-logo-1{
+       display: block !important;
+    margin-top: 0%;
+    text-align: center;
+}
+.topbar-inscroll  img {
+    width: 180px !important;;
+}
+.cancel{
+    display:block!important;
+}
+#myModal-1 .bottom-btn-md {
+    display: flex;
+    float: none;
+    gap: 10px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.bottom-btn-md {
+    display: flex;
+    float: none;
+    gap: 10px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.header-customize {
+    display: flex !important;
+    margin-left: 0rem !important;
+    align-items: center;
+    align-content: center;
+}
+.header-customize-item+.header-customize-item {
+    margin-left: 5px;
+    margin-top: 0px;
+}
+.right-side-log{
+    margin:0rem 1rem;
+}
+.hw-sec {
+   
+    width: 45px;
+    padding: 0.5rem;
+  
+    height: 45px;
+}
+}
